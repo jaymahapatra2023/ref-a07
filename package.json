@@ -1,0 +1,13 @@
+{
+  "name": "dental-coverage-planner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Estimates what a dental plan pays and what an employee owes, and sequences planned care across the plan year.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
